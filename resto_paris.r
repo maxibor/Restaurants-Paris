@@ -1,7 +1,6 @@
-library(RgoogleMaps)
 library(ggplot2)
 library(ggmap)
-library(maps)
+
 dt = read.csv("commercesparis.csv", header = T, row.names = NULL, sep = ";")
 colnames(dt)
 levels(dt$LIBELLE.ACTIVITE)
